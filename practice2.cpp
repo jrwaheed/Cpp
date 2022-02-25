@@ -1,24 +1,23 @@
 #include <iostream>
 using namespace std;
 
+
 int main(){
 
-string color, pluralNoun, celebrity;
+int numberGrid[3][2] = {
+                      {1,2},
+                      {3,1},
+                      {6,0}
 
-cout << "Enter a color: " << endl;
-getline(cin, color);
+};
 
-cout << "Enter a plural noun: " << endl;
-getline(cin, pluralNoun);
-
-cout << "Enter a celebrity:  " << endl;
-getline(cin, celebrity);
-
-
-  cout << "Rose are " << color  << endl;
-  cout << pluralNoun <<  " are blue"  << endl;
-  cout << "I love " << celebrity  << endl;
-
-
-
+for(int i = 0; i < 3; i++){
+  for(int j = 0; j < 2; j++){
+    cout << " here is the number: " << numberGrid[i][j];
+  }
+  cout << endl;
+}
+/*fdgfdgdfgfdg
+*/
+return 0;
 }
