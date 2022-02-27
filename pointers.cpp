@@ -2,15 +2,17 @@
 using namespace std;
 
 
+class Book{
+    public:
+        string title;
+        string author;
+        int pages;
+
+};
+
 int main(){
 
-int age = 25;
-int *pAge = &age;
 
-double gpa = 2.7;
-string name = "Mike";
-
-cout << &age;
 
 }
 
